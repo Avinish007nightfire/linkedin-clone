@@ -1,0 +1,31 @@
+.nav_container{
+    display: flex;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    background-color: white;
+    
+}
+.nav_left{
+    padding-left: 100px;
+    padding-right: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex:0.4;
+}
+.nav_left > img{
+    height: 50px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+.search_box{
+    display: flex;
+}
+.search_box > input{
+    border: none;
+}
+.nav_right{
+    display: flex;
+    align-items: center;
+}
